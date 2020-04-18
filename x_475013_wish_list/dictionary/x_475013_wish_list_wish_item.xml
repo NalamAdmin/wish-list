@@ -4,6 +4,7 @@
         <element display="true" label="URL" max_length="200" name="url" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="Item" max_length="110" name="item" type="string"/>
         <element attributes="encode_utf8=false" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element label="Branch1" max_length="40" name="branch1" type="string"/>
         <index name="index">
             <element name="requester"/>
         </index>
